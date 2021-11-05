@@ -1,0 +1,102 @@
+ body { 
+ 	background-color: rgb(220, 220, 220);
+ 	text-align: center;
+ 	font-family: Zapfino, serif;
+ 	color: royalblue;
+ 	margin: 0 auto;
+ 	}
+ 
+ h1 { 
+ 	color: darkblue;
+ 	font-size: 24px;
+ 	}
+ 
+ h2 { color: darkblue;
+
+ 	}
+
+img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	}
+
+
+ul { list-style: none; 
+	}
+ 
+li	{ list-style: none; }
+
+.card-white { 
+	padding: 0px 30px;
+	background: rgb(200, 200, 200); 
+	border-radius: 10px;
+	box-shadow: 0 10px 90px rgb(240, 240, 240);
+	width: 700px;
+	padding: 24px;
+   	margin: 24px auto;
+    text-align: center;
+	}		
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	}
+
+.EHL{
+	width: 50px;
+	background: royalblue;
+	box-shadow: 0 10px 90px darkblue;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 5px 10px;
+	}
+.EHL:hover{
+	color: darkblue;
+	text-decoration: none;
+}
+
+.fa-hand-point-right{
+	color: royalblue;
+	font-size: 25px;
+	padding: 3px;
+	}	
+.fa-linkedin, .fa-facebook, .fa-instagram{
+	color: darkblue;
+	font-size: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	}
+.fa-linkedin:hover,.fa-facebook:hover,.fa-instagram:hover{
+	color: lightblue;
+	text-decoration: none;
+	}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: darkblue;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 600px;
+    margin: 24px auto;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 400px;
+    margin: 24px auto;
+  }
+}
+@media (max-width: 375px) {
+  .card-white {
+    width: 350px;
+    margin: 24px auto;
+}
+}
+
